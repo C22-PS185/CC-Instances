@@ -19,9 +19,9 @@ On Linux
 --
 pm2 start main.py --name face-api --interpreter python3
 
-Endpoints
+Endpoint
 --
-
+GET '/external IP vm/?file= <unique_id> : This endpoint responses with JSON about the motif prediction result of the requested unique id.
 
 Testing The Application
 --

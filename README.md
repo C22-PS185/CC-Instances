@@ -21,7 +21,7 @@ pm2 start main.py --name face-api --interpreter python3
 
 Endpoint
 --
-GET '/external IP vm/?file= <unique_id> : This endpoint responses with JSON about the motif prediction result of the requested unique id.
+GET '/external IP vm/?file= <unique_id> : This endpoint responses with JSON about the pose prediction result of the requested unique id.
 
 Testing The Application
 --
@@ -29,7 +29,7 @@ Testing The Application
 2. Start your application. (Refer to: How To Run section of the documentation)
 3. Your application should be running on 127.0.0.1:8000/
 4. Set the HTTP Request to GET and set http://127.0.0.1:8000/ as the URL
-5. We will use 5nBCJLTWi0 as unique_id for demonstration purposes
+5. We will use 5nBCJLTWi0 as unique id for demonstration purposes
 6. Change URL to http://external IP on your vm:8000/?file=5nBCJLTWi0 then click Send
 7. You should get a JSON response
 

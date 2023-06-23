@@ -30,7 +30,7 @@ Testing The Application
 3. Your application should be running on 127.0.0.1:8000/
 4. Set the HTTP Request to GET and set http://127.0.0.1:8000/ as the URL
 5. We will use 5nBCJLTWi0 as unique id for demonstration purposes
-6. Change URL to http://external IP on your vm:8000/?file=5nBCJLTWi0 then click Send
+6. Change URL to http://external-IP on your vm:8000/?file=5nBCJLTWi0 then click Send
 7. You should get a JSON response
 
 
